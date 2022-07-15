@@ -1,0 +1,135 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --background-color: #f0e9f6;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  body {
+    margin: 60px auto;
+    /* max-width: 800px; */
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+  
+  p {
+    padding: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .contact-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .contact-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .contact-link {
+    background: var(--primary-color);
+    color: white;
+    border: 1px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .about-me-link {
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+  }
+  
+  .about-paragraphs {
+    display: flex;
+    margin: 30px 0;
+  }
+  
+  .about-paragraphs p {
+    margin: 10px;
+  }
+  
+  .email {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .email:hover {
+    cursor: pointer;
+  }
+  .launch-link {
+    background: var(--primary-color);
+    color: white;
+    border: 1px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
+  }
+  .heading {
+    text-align: left;
+  }
+  .intro h1 {
+    font-size: 90px;
+  }
+  .intro h2 {
+    font-size: 38px;
+  }
+  @media (max-width: 575px) {
+    .intro {
+      background-color: var(--background-color);
+    }
+  
+    .intro h1 {
+      font-size: 50px;
+    }
+    .intro h2 {
+      font-size: 30px;
+    }
+    .contact-links {
+      margin-top: 20px;
+      /* margin-bottom: 2px; */
+    }
+    img {
+      display: none;
+    }
+  
+    .app-details {
+      display: block;
+      text-align: center;
+    }
+    .app-details h1 {
+      text-align: center;
+    }
+    .app-details p {
+      text-align: center;
+    }
+    .app-details a {
+      font-size: 18px;
+      display: block;
+      text-align: center;
+    }
+  }
